@@ -18,7 +18,6 @@ public partial class MainWindow : Window
 
         Ikst.GlobalHotkey.GlobalHotkey gh = new Ikst.GlobalHotkey.GlobalHotkey();
 
-        int a = KeyInterop.VirtualKeyFromKey(Key.Q);
         gh.Regist((int)(ModifierKeys.Control | ModifierKeys.Shift), KeyInterop.VirtualKeyFromKey(Key.Q), () => MessageBox.Show("Ctrl+Shift+Q"));
         gh.Regist(12, 0x51, () => MessageBox.Show("Win+shift+Q"));
 
