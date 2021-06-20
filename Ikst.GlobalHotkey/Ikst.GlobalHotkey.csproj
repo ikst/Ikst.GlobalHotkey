@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1;net5.0-windows</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
+    <Version>0.0.1</Version>
+    <Authors>ikst</Authors>
+    <Company>ikst</Company>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageTags>Hotkey</PackageTags>
+    <PackageReleaseNotes>Please check the following.
+https://github.com/ikst/Ikst.GlobalHotkey/blob/master/README.md</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/ikst/Ikst.GlobalHotkey</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
