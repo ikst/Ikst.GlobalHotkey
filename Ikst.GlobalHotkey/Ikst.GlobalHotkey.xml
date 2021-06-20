@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ikst.GlobalHotkey</name>
+    </assembly>
+    <members>
+        <member name="T:Ikst.GlobalHotkey.GlobalHotkey">
+            <summary>
+            GlobalHotkey
+            </summary>
+        </member>
+        <member name="M:Ikst.GlobalHotkey.GlobalHotkey.Regist(System.Int32,System.Int32,System.Action)">
+            <summary>
+            ホットキーを登録します
+            </summary>
+            <param name="modifierKeys">修飾子キー</param>
+            <param name="key">入力キー</param>
+            <param name="act">実行処理</param>
+            <returns>登録ID</returns>
+        </member>
+        <member name="M:Ikst.GlobalHotkey.GlobalHotkey.UnRegist(System.Int32)">
+            <summary>
+            ホットキーを解除します
+            </summary>
+            <param name="id">登録時のID</param>
+        </member>
+        <member name="M:Ikst.GlobalHotkey.GlobalHotkey.UnRegistAll">
+            <summary>
+            全てのホットキーを解除します
+            </summary>
+        </member>
+    </members>
+</doc>

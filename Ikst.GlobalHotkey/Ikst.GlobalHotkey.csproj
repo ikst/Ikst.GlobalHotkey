@@ -16,4 +16,8 @@ https://github.com/ikst/Ikst.GlobalHotkey/blob/master/README.md</PackageReleaseN
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
+    <DocumentationFile>C:\Users\oihso\source\repos\Ikst.GlobalHotkey\Ikst.GlobalHotkey\Ikst.GlobalHotkey.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
